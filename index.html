@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>LightCrafts • Home</title>
+  <link rel='preload' href='assets/style.css' as='style'>
+  <link rel='stylesheet' href='assets/style.css'>
+</head>
+<body>
+  
+  <div class='navbar'>
+    <div class='container'>
+      <a class='brand' href='index.html'>
+        <div class='logo'></div>
+        <h1>LightCrafts</h1>
+      </a>
+      <nav class='navlinks'>
+        <a href='index.html' class='active'>Home</a>
+        <a href='games.html' class=''>Games</a>
+        <a href='store.html' class=''>Store</a>
+        <a href='apply.html' class=''>Apply</a>
+        <a href='discord.html' class=''>Discord</a>
+        <a href='languages.html' class=''>Languages</a>
+      </nav>
+      <button class='mode-toggle' onclick='toggleTheme()'></button>
+    </div>
+  </div>
+
+  <main class='hero'>
+    <div class='card animate-in'>
+      <h2 class='title'>Welcome to LightCrafts</h2>
+      <p class='subtitle'>Jump in and play with friends on our lag‑free network.</p>
+      <div class='row' style='justify-content:center;margin:12px 0 18px'>
+        <span class='badge'>Version: 1.21.8 / 1.8</span>
+      </div>
+      <div class='row'>
+        <input class='input' value='lightcrafts.aternos.me' readonly>
+        <button id='copyIpBtn' class='btn' onclick='copyIP()'>Copy IP</button>
+      </div>
+    </div>
+    <div class='section animate-in'>
+      <div class='grid games'>
+        <div class='pill'>BedWars</div>
+        <div class='pill'>SkyWars</div>
+        <div class='pill'>SkyBlock</div>
+        <div class='pill'>Survival</div>
+        <div class='pill'>KitPvP</div>
+        <div class='pill'>Parkour</div>
+        <div class='pill'>Practice</div>
+        <div class='pill'>Oneblock</div>
+        <div class='pill'>Tntrun</div>
+        <div class='pill'>MurderMystery</div>
+        <div class='pill'>Skymines</div>
+      </div>
+    </div>
+  </main>
+  
+  <div class='footer'>
+    © 2025 LightCrafts • All rights reserved.
+  </div>
+
+  <script src='assets/script.js'></script>
+</body>
+</html>

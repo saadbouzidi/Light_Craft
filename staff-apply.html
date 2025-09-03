@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>LightCrafts • Staff</title>
+  <link rel='stylesheet' href='assets/style.css'>
+</head>
+<body>
+  
+  <div class='navbar'>
+    <div class='container'>
+      <a class='brand' href='index.html'>
+        <div class='logo'></div>
+        <h1>LightCrafts</h1>
+      </a>
+      <nav class='navlinks'>
+        <a href='index.html' class=''>Home</a>
+        <a href='games.html' class=''>Games</a>
+        <a href='store.html' class=''>Store</a>
+        <a href='apply.html' class='active'>Apply</a>
+        <a href='discord.html' class=''>Discord</a>
+        <a href='languages.html' class=''>Languages</a>
+      </nav>
+      <button class='mode-toggle' onclick='toggleTheme()'></button>
+    </div>
+  </div>
+
+  <main class='section container'>
+    <h2 class='title animate-in'>Staff Application</h2>
+    <form class='grid animate-in' onsubmit='comingSoon(event)' style='max-width:680px; margin:0 auto'>
+      <input class='input' required placeholder='Your Name'>
+      <input class='input' required placeholder='Discord (e.g. name#0001 or @handle)'>
+      <input class='input' required placeholder='Age'>
+      <input class='input' placeholder='Country / Timezone'>
+      <textarea class='input' rows='4' placeholder='Experience / Portfolio links'></textarea>
+      <button class='btn'>Submit</button>
+    </form>
+  </main>
+  
+  <div class='footer'>
+    © 2025 LightCrafts • All rights reserved.
+  </div>
+
+  <script src='assets/script.js'></script>
+</body>
+</html>
